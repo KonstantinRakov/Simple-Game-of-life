@@ -1,3 +1,7 @@
+# Repository
+build
+.vscode
+
 # Prerequisites
 *.d
 
