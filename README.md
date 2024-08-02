@@ -11,3 +11,8 @@ After building the project, for the program to work correctly, copy the followin
 * res/ - Сell visualization file
 * SDL2.dll
 * SDL2_image.dll
+
+## **Controlling in game**
+
+* space bar button - pause and start the game
+* left mouse button - creating and deleting a cell
