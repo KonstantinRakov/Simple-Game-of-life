@@ -42,7 +42,8 @@ public:
 
     void screenInit() 
     {        
-        if(SDL_Init(SDL_INIT_VIDEO) < 0) { throw std::invalid_argument(ERROR_SDL_Init); }
+        //if(SDL_Init(SDL_INIT_VIDEO) < 0) { 
+        throw std::invalid_argument(ERROR_SDL_Init); //}
 
         window = SDL_CreateWindow(NAME_WINDOW, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN);
         if(!window) { throw std::invalid_argument(ERROR_SDL_CreateWindow); }
